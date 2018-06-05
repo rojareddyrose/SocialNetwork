@@ -1,0 +1,31 @@
+<html>
+<head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="signin.css">
+    </head>
+<body>
+    <h1>regisration form</h1>
+    <form action="/submit" method="get">
+        <tr>
+        <td>username</td>
+            <td><input type="text" name="name" placeholder="name" value="">
+            </td><br>
+        </tr>
+        <tr>
+            <td>email</td>
+            <td><input type="text" value="" name="email" placeholder="email"></td></tr>
+        <tr>
+        <td>password</td>
+        <td><input type="text" name="password"placeholder="password" value="">
+            </td></tr><br>
+        <tr>
+        <td>gender</td>
+        <td><input type="radio" name="gender" value="male">male<input type="radio"name="gender" value="female">female</td></tr><br>
+        <tr>
+        <td>phonenumber</td>
+        <td><input type="number" name="phonenumber" placeholder="numbers" value=""></td></tr><br>
+        <tr>
+        
+             <button type="submit" class="btn btn-lg btn-primary bt2" ><b>register</b></button>
+            <a href='/login'> <button type="button" class="btn btn-lg btn-primary bt2" disabled="disabled"><b>login</b></button></a>
+    </form></body></html>
